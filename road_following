@@ -1,0 +1,6 @@
+2019/11/14
+
+ssh dlinano@192.168.1.137
+cd jetbot/notebooks/road_following
+jupyter lab --no-browser --port=5678 
+ssh -N -f -L localhost:5678:localhost:5678 dlinano@192.168.1.137 
